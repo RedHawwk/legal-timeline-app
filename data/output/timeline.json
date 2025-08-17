@@ -1,0 +1,79 @@
+[
+  {
+    "date": "March 11, 1921",
+    "event_type": "Lease Agreement",
+    "description": "LEASE DEED  This lease deed is executed on 11th March, 1921 between Kumar Krishna Prasad Singh,  son of late Raja Shri Krishna Prasad Singh of village Kharagpur, District Hooghly  (hereinafter called the \"Lessor\") and The Bengal Coal Company Limited, a company  incorporated under the Companies Act (hereinaft",
+    "context": "LEASE DEED\n\nThis lease deed is executed on 11th March, 1921 between Kumar Krishna Prasad Singh, \nson of late Raja Shri Krishna Prasad Singh of village Kharagpur, District Hooghly \n(hereinafter called the \"Lessor\") and The Bengal Coal Company Limited, a company \nincorporated under the Companies Act (hereinaft",
+    "confidence_score": 0.95,
+    "source_file": "sample_legal_doc.txt",
+    "entities": {
+      "PERSON": [
+        "Kumar Krishna Prasad Singh"
+      ],
+      "ORG": [
+        "The Bengal Coal Company Limited"
+      ],
+      "GPE": [
+        "District Hooghly",
+        "Kharagpur"
+      ],
+      "MONEY": []
+    }
+  },
+  {
+    "date": "March 20, 1921",
+    "event_type": "Lease Agreement",
+    "description": "haragpur, District Hooghly  (hereinafter called the \"Lessor\") and The Bengal Coal Company Limited, a company  incorporated under the Companies Act (hereinafter called the \"Lessee\").",
+    "context": "haragpur, District Hooghly \n(hereinafter called the \"Lessor\") and The Bengal Coal Company Limited, a company \nincorporated under the Companies Act (hereinafter called the \"Lessee\").\n\nThe lease was registered with the Sub-Registrar Office, Hooghly on 20th March, 1921 \nunder registration number 156/1921.\n\nA dispute arose between the parties regarding royalty payments in 1928. The matter \nwas filed in the District Court, Hooghly on 15th January, 1929 as Civil Suit No. 45/1929.\n\nThe court delivered its judgment on ",
+    "confidence_score": 0.95,
+    "source_file": "sample_legal_doc.txt",
+    "entities": {
+      "PERSON": [
+        "District Hooghly"
+      ],
+      "ORG": [
+        "The Bengal Coal Company Limited",
+        "the Sub-Registrar Office",
+        "the District Court",
+        "Civil Suit"
+      ],
+      "GPE": [],
+      "MONEY": []
+    }
+  },
+  {
+    "date": "January 15, 1929",
+    "event_type": "Lease Agreement",
+    "description": "The lease was registered with the Sub-Registrar Office, Hooghly on 20th March, 1921  under registration number 156/1921.",
+    "context": "The lease was registered with the Sub-Registrar Office, Hooghly on 20th March, 1921 \nunder registration number 156/1921.\n\nA dispute arose between the parties regarding royalty payments in 1928. The matter \nwas filed in the District Court, Hooghly on 15th January, 1929 as Civil Suit No. 45/1929.\n\nThe court delivered its judgment on 25th August, 1930, directing the lessee to pay \nenhanced royalty as per the original lease terms.",
+    "confidence_score": 0.95,
+    "source_file": "sample_legal_doc.txt",
+    "entities": {
+      "PERSON": [],
+      "ORG": [
+        "the Sub-Registrar Office",
+        "the District Court",
+        "Civil Suit"
+      ],
+      "GPE": [],
+      "MONEY": []
+    }
+  },
+  {
+    "date": "August 25, 1930",
+    "event_type": "Lease Agreement",
+    "description": "under registration number 156/1921.",
+    "context": " \nunder registration number 156/1921.\n\nA dispute arose between the parties regarding royalty payments in 1928. The matter \nwas filed in the District Court, Hooghly on 15th January, 1929 as Civil Suit No. 45/1929.\n\nThe court delivered its judgment on 25th August, 1930, directing the lessee to pay \nenhanced royalty as per the original lease terms.",
+    "confidence_score": 0.95,
+    "source_file": "sample_legal_doc.txt",
+    "entities": {
+      "PERSON": [],
+      "ORG": [
+        "the District Court",
+        "Civil Suit"
+      ],
+      "GPE": [],
+      "MONEY": []
+    }
+  }
+]

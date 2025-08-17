@@ -1,0 +1,60 @@
+# Legal Document Timeline Extractor Configuration
+processing:
+    # Number of concurrent workers for document processing
+    max_workers: 4
+    # Context window size around dates (in characters)
+    context_window: 500
+    # Minimum confidence score for an event to be included (0.0 to 1.0)
+    min_confidence: 0.3
+    # Maximum number of events to extract per document (set to 0 for unlimited)
+    max_events_per_doc: 50
+
+input:
+    # Supported file extensions
+    extensions: ['.txt', '.doc', '.docx', '.pdf']
+    # Default text encoding
+    encoding: 'utf-8'
+    # Maximum file size in MB to prevent memory issues
+    max_file_size_mb: 50
+
+output:
+    # Default output formats to generate
+    formats: ['markdown', 'json', 'excel']
+    # Whether to include the confidence score in the output files
+    include_confidence: true
+    # If true, outputs are grouped by source document instead of one long timeline
+    group_by_document: false
+    # If true, all events from all files are sorted chronologically in the final output
+    sort_chronologically: true
+
+extraction:
+    # Date extraction settings
+    date_patterns:
+        include_year_only: false
+        include_bengali_calendar: true
+        fuzzy_matching: true
+    # Pre-defined event types for classification
+    event_types:
+        - 'Lease Agreement'
+        - 'Court Filing'
+        - 'Decree/Judgment'
+        - 'Contract Execution'
+        - 'Property Sale'
+        - 'Legal Amendment'
+        - 'Compromise/Settlement'
+
+nlp:
+    # spaCy model to use for Natural Language Processing
+    model: 'en_core_web_sm'
+    # Set to true to attempt using a GPU if available (requires CUDA-enabled spaCy)
+    use_gpu: false
+    # Batch size for processing text with spaCy
+    batch_size: 100
+
+logging:
+    # Logging level: DEBUG, INFO, WARNING, ERROR
+    level: 'INFO'
+    # Path to the log file (leave empty for console-only logging)
+    file: 'logs/extraction.log'
+    # Whether to include performance metrics in the log output
+    include_performance: true

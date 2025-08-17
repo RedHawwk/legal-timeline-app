@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Extractor on Sample Data",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/run_extraction.py",
+            "args": [
+                "./tests/sample_data",
+                "--output",
+                "./data/output"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Debug Single Document",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/debug_single_doc.py",
+            "args": [
+                "./tests/sample_data/sample_legal_doc.txt"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
