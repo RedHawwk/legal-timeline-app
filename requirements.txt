@@ -4,6 +4,7 @@ python-dateutil
 tqdm
 pyyaml
 spacy
+streamlit
 
 # Document processing
 python-docx
@@ -18,3 +19,7 @@ pytest
 pytest-asyncio
 black
 flake8
+
+# Add these for Gemini API integration
+google-generativeai
+python-dotenv
